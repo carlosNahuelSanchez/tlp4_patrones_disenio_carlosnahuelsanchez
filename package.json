@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "nodemon": "^3.1.10",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "tsx": "^4.20.5"
+  },
+  "scripts": {
+    "singleton": "tsx watch src/models/Inventario.ts",
+    "factory": "tsx watch src/models/EquipoFactory.ts",
+    "observer": "tsx watch src/models/Soporte.ts",
+    "adapter": "tsx watch src/models/InventarioViejo.ts"
+  }
+}
